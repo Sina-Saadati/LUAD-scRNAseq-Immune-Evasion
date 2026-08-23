@@ -23,7 +23,6 @@ Working with clinical scRNA-seq data often introduces massive computational bott
 ## Visualizations
 *Here is the spatial compartmentalization of immune checkpoints across the TME:*
 ![Checkpoint Landscape](results/Human_Checkpoint_Compartmentalization.png)
-*(Note: Ensure you upload your PNG file to the results folder so this link works)*
 
 ## Reproducibility
 To replicate this analysis, run the master script located in the `scripts/` directory. The script automatically fetches the required files from GEO (GSE131907), processes the data, scores modules, and outputs the final interaction tables and high-resolution plots.
